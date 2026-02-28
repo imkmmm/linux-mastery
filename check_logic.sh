@@ -1,12 +1,11 @@
-
 #!/bin/bash
+FILE="/shared_data/foundation.txt"
 
-FILE ="/shared_data/status.txt"
-
-if [ -f "$FILE" ] then 
-echo "FILE exists. " 
-else 
-echo 'FILE missing. Creating now..."
-date > "$FILE"
+if [ -f "$FILE" ]; then
+    echo "File already exists!"
+else
+    echo "File missing. Creating now..."
+    date > "$FILE"
 fi
+
 
