@@ -3,7 +3,7 @@
 FILE="/shared_data/foundation.txt"
 
 if [ -f "$FILE" ]; then
-    echo "File already exists!"
+    echo "FOUND:Foundation File."
 else
     echo "File missing. Creating now..."
     date > "$FILE"
