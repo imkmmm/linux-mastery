@@ -8,3 +8,7 @@ This script automates file checking in a shared environment.
 ## Usage
 export DATA_PATH="/shared_data"
 ./check_logic.sh
+
+## Quick Start
+1. export DATA_PATH="/shared_data"
+2. check_logic.sh
